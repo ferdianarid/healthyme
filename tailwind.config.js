@@ -14,13 +14,7 @@ module.exports = {
                 activeState: "8px 8px 40px rgba(12, 27, 58, 0.06)"
             },
             fontFamily: {
-                "gilroy-bold": ["gilroy-bold", "sans-serif"],
-                "gilroy-semibold": ["gilroy-semibold", "sans-serif"],
-                "gilroy-medium": ["gilroy-medium", "sans-serif"],
-                "gilroy-normal": ["gilroy-normal", "sans-serif"],
-                "gilroy-light": ["gilroy-light", "sans-serif"],
-                "gilroy-extralight": ["gilroy-extralight", "sans-serif"],
-                "gilroy-thin": ["gilroy-thin", "sans-serif"]
+                "Gilroy": ["Gilroy", "sans-serif"]
             },
             screens: {
                 iphone: { min: "300px", max: "767px" },

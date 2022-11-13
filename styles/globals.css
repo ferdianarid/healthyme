@@ -9,6 +9,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: "Gilroy";
+    src: url("/fonts/Gilroy-Bold.woff") format(".woff");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("/fonts/Gilroy-Semibold.woff") format(".woff");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("/fonts/Gilroy-Medium.woff") format(".woff");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("/fonts/Gilroy-Regular.woff") format(".woff");
+    font-style: normal;
+    font-weight: 400;
+}
+
 .header-homepage {
     background-image: url("../assets/universal/background.svg");
     background-size: cover;
