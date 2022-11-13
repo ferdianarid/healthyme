@@ -9,7 +9,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@font-face {
+
+/* @font-face {
     font-family: 'Gilroy';
     src: url(../assets/fonts/Gilroy-Regular.woff);
     src: local('Gilroy Regular'), local('Gilroy-Regular'), url(../assets/fonts/Gilroy-Regular.woff) format('woff');
@@ -39,7 +40,7 @@
     src: local('Gilroy Bold'), local('Gilroy-Bold'), url(../assets/fonts/Gilroy-Bold.woff) format('woff');
     font-weight: 700;
     font-style: normal;
-}
+} */
 
 .header-homepage {
     background-image: url(../assets/universal/background.svg);
