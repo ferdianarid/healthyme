@@ -14,7 +14,10 @@ module.exports = {
                 activeState: "8px 8px 40px rgba(12, 27, 58, 0.06)"
             },
             fontFamily: {
-                "Gilroy": ["Gilroy", "sans-serif"]
+                "bold": ["GilroyBold", "sans-serif"],
+                "semibold": ["GilroySemibold", "sans-serif"],
+                "medium": ["GilroyMedium", "sans-serif"],
+                "normal": ["GilroyRegular", "sans-serif"],
             },
             screens: {
                 iphone: { min: "300px", max: "767px" },
