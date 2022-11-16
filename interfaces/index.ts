@@ -12,6 +12,7 @@ export interface IText {
 }
 
 export interface IFoodCard {
+    slugs?: string
     image: any
     title: string
     description: string

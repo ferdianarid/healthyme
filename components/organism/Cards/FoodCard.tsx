@@ -16,28 +16,31 @@ import Food11 from "@assets/home/foods/food11.png"
 import Food12 from "@assets/home/foods/food12.png"
 import Food13 from "@assets/home/foods/food13.png"
 import Food14 from "@assets/home/foods/food14.png"
+import Link from "next/link"
 
-const FoodCard: React.FC<IFoodCard> = ({ image, title, description }) => {
+const FoodCard: React.FC<IFoodCard> = ({ slugs, image, title, description }) => {
     return (
-        <div className="w-full">
-            <Image src={
-                image === "food1" ? Food1 :
-                    image === "food2" ? Food2 :
-                        image === "food3" ? Food3 :
-                            image === "food4" ? Food4 :
-                                image === "food5" ? Food5 :
-                                    image === "food6" ? Food6 :
-                                        image === "food7" ? Food7 :
-                                            image === "food8" ? Food8 :
-                                                image === "food9" ? Food9 :
-                                                    image === "food10" ? Food10 :
-                                                        image === "food11" ? Food11 :
-                                                            image === "food12" ? Food12 :
-                                                                image === "food13" ? Food13 : Food14
-            } width={310} height={370} alt={title} className="rounded-2xl" />
-            <h3 className="font-bold text-lg text-neutral-100 mt-3 mb-2">{title}</h3>
-            <Description>{description}</Description>
-        </div>
+        <Link href={`/foods/${slugs}`}>
+            <div className="w-full">
+                <Image src={
+                    image === "food1" ? Food1 :
+                        image === "food2" ? Food2 :
+                            image === "food3" ? Food3 :
+                                image === "food4" ? Food4 :
+                                    image === "food5" ? Food5 :
+                                        image === "food6" ? Food6 :
+                                            image === "food7" ? Food7 :
+                                                image === "food8" ? Food8 :
+                                                    image === "food9" ? Food9 :
+                                                        image === "food10" ? Food10 :
+                                                            image === "food11" ? Food11 :
+                                                                image === "food12" ? Food12 :
+                                                                    image === "food13" ? Food13 : Food14
+                } width={310} height={370} alt={title} className="rounded-2xl" />
+                <h3 className="font-bold text-lg text-neutral-100 mt-3 mb-2">{title}</h3>
+                <Description>{description}</Description>
+            </div>
+        </Link>
     )
 }
 

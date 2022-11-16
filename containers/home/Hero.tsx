@@ -19,9 +19,9 @@ const Hero = () => {
                     </h3>
                     <h1 className="font-bold text-neutral-100 md:text-heading-1 text-heading-2"><span className="text-primary-main">One Step Solution</span> for all your dietary needs.</h1>
                     <p className="font-normal text-neutral-50 leading-relaxed mt-4 desktop:mr-16 text-sm md:text-md">Using your BMI index we calculate whether the dish is suitable for you. We help you to get healthy life everyday.</p>
-                    <div className="flex mt-10 w-full space-x-4">
-                        <input type="text" className="w-[330px] text-md text-neutral-50 py-3 px-4 bg-neutral-10 rounded-xl border border-neutral-30" placeholder="Search product" />
-                        <button className="w-fit py-3 px-8 rounded-xl bg-primary-main hover:bg-primary-hover text-neutral-10 text-md font-semibold">Search</button>
+                    <div className="flex flex-col md:flex-row mt-10 w-full md:space-x-4 space-y-4 md:space-y-0">
+                        <input type="text" className="w-full md:w-[330px] text-md text-neutral-50 py-3 px-4 bg-neutral-10 rounded-xl border border-neutral-30" placeholder="Search product" />
+                        <button className="w-full md:w-fit py-3 px-8 rounded-xl bg-primary-main hover:bg-primary-hover text-neutral-10 text-md font-semibold">Search</button>
                     </div>
                 </div>
                 <div className="w-full md:w-1/2">
