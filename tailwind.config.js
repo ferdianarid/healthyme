@@ -42,7 +42,8 @@ module.exports = {
                     main: "#6F3AFA",
                     surface: "#65A8FB",
                     hover: "#3A8EF6",
-                    focus: "#3D93FF"
+                    focus: "#3D93FF",
+                    sky: "#F3F3FD"
                 },
                 secondary: {
                     main: "#FEE2C5",

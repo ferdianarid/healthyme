@@ -8,7 +8,7 @@ const Foods = () => {
     return (
         <Fragment>
             <header className={clsx(
-                "w-full",
+                "w-full bg-primary-sky",
                 "px-6 tablet:px-8 desktop:px-24 pt-10 pb-20"
             )}>
                 <h1 className="font-bold text-4xl text-neutral-100 pb-2">Foods Page</h1>
