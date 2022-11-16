@@ -25,21 +25,15 @@ const customFonts = localFont({
       weight: "400"
     }
   ],
+  variable: "--font-gilroy",
   fallback: ["Gilroy", "sans-serif"]
 })
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
-      <style jsx global>
-        {`
-        :root {
-          --font-base: "${customFonts.style.fontFamily}"
-        }
-      `}
-      </style>
+    <main className={`${customFonts.variable} font-sans`}>
       <Component {...pageProps} />
-    </>
+    </main>
   )
 }
 
