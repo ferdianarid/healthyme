@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const { fontFamily } = require("tailwindcss/defaultTheme")
+
 module.exports = {
     mode: "jit",
     content: [
@@ -14,10 +16,10 @@ module.exports = {
                 activeState: "8px 8px 40px rgba(12, 27, 58, 0.06)"
             },
             fontFamily: {
-                "bold": ["GilroyBold", "sans-serif"],
-                "semibold": ["GilroySemibold", "sans-serif"],
-                "medium": ["GilroyMedium", "sans-serif"],
-                "normal": ["GilroyRegular", "sans-serif"],
+                "bold": ["var(--gilroy-font)", "sans-serif"],
+                "semibold": ["var(--gilroy-font)", "sans-serif"],
+                "medium": ["var(--gilroy-font)", "sans-serif"],
+                "normal": ["var(--gilroy-font)", "sans-serif"],
             },
             screens: {
                 iphone: { min: "300px", max: "767px" },
