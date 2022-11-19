@@ -13,7 +13,7 @@ const Foods = () => {
             )}>
                 <h1 className="font-bold text-4xl text-neutral-100 pb-2">Foods Page</h1>
                 <Description>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias quod obcaecati nobis, asperiores illo totam velit eligendi ex recusandae saepe?</Description>
-                <div className="grid grid-cols-2 md:grid-cols-6 gap-x-5 gap-y-10 mt-8">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-x-5 gap-y-10 mt-8">
                     {FoodList.map((item: any) => (
                         <FoodCard key={item.id} slugs={item.slug} image={item.image} title={item.title} description={item.description} />
                     ))}

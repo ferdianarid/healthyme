@@ -48,8 +48,8 @@ const FoodDetails: NextPage = () => {
                             </div>
                         </div>
                         <h3 className="font-bold text-neutral-100 mb-4 mt-8 text-xl">Related Foods :</h3>
-                        <div className="grid grid-cols-2 md:grid-cols-6 gap-x-5 gap-y-10">
-                            {FoodList.slice(0, 6).map((item: any) => (
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-x-5 gap-y-10">
+                            {FoodList.slice(0, 4).map((item: any) => (
                                 <FoodCard key={item.id} image={item.image} title={item.title} description={item.description} />
                             ))}
                         </div>

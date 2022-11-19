@@ -31,8 +31,8 @@ const Navbar = () => {
                                     "text-neutral-100"
                                 )}>{item.title}</Link>
                             ))}
-                            <Link href="/auth/signin"><p className="text-sm text-neutral-100 leading-text font-semibold tracking-text">Sign In</p></Link>
-                            <Link href="/auth/signup"><p className="text-sm text-neutral-10 font-semibold tracking-text py-[11.5px] px-[21.5px] rounded-lg bg-primary-main hover:bg-primary-hover transition-all">Sign Up</p></Link>
+                            <Link href="/signin"><p className="text-sm text-neutral-100 leading-text font-semibold tracking-text">Sign In</p></Link>
+                            <Link href="/signup"><p className="text-sm text-neutral-10 font-semibold tracking-text py-[11.5px] px-[21.5px] rounded-lg bg-primary-main hover:bg-primary-hover transition-all">Sign Up</p></Link>
                         </div>
                     </div>
                     <div className="flex tablet:w-fit md:space-x-4 justify-between">
@@ -80,8 +80,8 @@ const Navbar = () => {
                                     )}>{item.title}</Link>
                                 ))}
                                 <div className="px-10 tablet:px-8 desktop:px-0 mb-7 flex flex-col space-y-5 w-full">
-                                    <Link href="/auth/signin"><p className="w-full px-[21.5px] text-center text-sm text-neutral-100 leading-text font-semibold tracking-text">Sign In</p></Link>
-                                    <Link href="/auth/signup"><p className="text-sm text-neutral-10 font-semibold tracking-text py-[11.5px] px-[21.5px] text-center rounded-lg bg-primary-main hover:bg-primary-hover transition-all">Sign Up</p></Link>
+                                    <Link href="/signin"><p className="w-full px-[21.5px] text-center text-sm text-neutral-100 leading-text font-semibold tracking-text">Sign In</p></Link>
+                                    <Link href="/signup"><p className="text-sm text-neutral-10 font-semibold tracking-text py-[11.5px] px-[21.5px] text-center rounded-lg bg-primary-main hover:bg-primary-hover transition-all">Sign Up</p></Link>
                                 </div>
                             </div>
                         </div>
